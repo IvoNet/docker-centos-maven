@@ -1,4 +1,4 @@
-FROM ivonet/centos-jdk:7-1.8.0
+FROM ivonet/centos-jdk:7-zulu11-jdk
 
 RUN yum -y update \
 	&& yum -y install \
